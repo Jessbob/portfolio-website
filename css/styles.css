@@ -1,0 +1,234 @@
+:root {
+  --primary-color: #4169E1;
+  --secondary-color: #5D83F4;
+  --dark-gray: #2B2B2B;
+  --light-gray: #D3D3D3;
+  --white: #FFFFF0;
+  --primary-font-family: 'Big Shoulders Text', cursive;
+  --primary-font-weight: 400;
+  --primary-line-height: 1.6;
+}
+header {
+  font-family: var(--primary-font-family);
+  font-weight: var(--primary-font-weight);
+  line-height: var(--primary-line-height);
+  font-size: 16px;
+
+}
+body {
+  font-family: var(--primary-font-family);
+  font-weight: var(--primary-font-weight);
+  line-height: var(--primary-line-height);
+  font-size: 16px;
+}
+
+footer {
+  font-family: var(--primary-font-family);
+  font-weight: var(--primary-font-weight);
+  line-height: var(--primary-line-height);
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+a{
+  color: var(--primary-color);
+  text-decoration: none;
+}
+a:visited {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+a:hover, a:focus{
+  text-decoration: underline;
+}
+a:active {
+  color: var(--dark-gray);
+  text-decoration: underline;
+}
+
+button,
+  .button, button {
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+  background-color: var(--primary-color);
+  color: 	var(--white);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+button:hover, button:focus,
+  .button:hover,
+  .button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.profile__portrait {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+.page-footer {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 98%;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-header {
+  display: flex;
+  width: 100%;
+  padding: 2px;
+}
+
+.page-header__item {
+  flex: 0 1 200px;
+  border-radius: 50%;
+}
+.page-header__item:last-child {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-list li {
+  display: inline-block;margin-left: 15px
+}
+.grid-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid__item {
+  background-color: lightgray;
+  padding: 20px
+}
+
+@media all and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .grid-about {grid-template-columns: 1fr;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 750px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-about {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 750px) {
+  .grid {
+    grid-gap: 10px;
+  }
+  .grid__item: last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  h1 {
+    font-size: 22px;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    fill: #EDC655;
+  }
+  50% {
+    fill: #fcffad
+  }
+  100% {
+    fill: #f76414
+  }
+}
+
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
