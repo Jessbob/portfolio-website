@@ -262,3 +262,11 @@ button:focus,
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.table {
+  text-align: center;
+}
+
+.thead {
+  background-color: var(--light-gray);
+}

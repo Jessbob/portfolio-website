@@ -408,3 +408,11 @@ button:focus,
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
           animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.table {
+  text-align: center;
+}
+
+.thead {
+  background-color: #ece5e5;
+}
