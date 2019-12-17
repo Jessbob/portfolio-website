@@ -145,12 +145,6 @@ button:focus,
   margin-bottom: 10px;
 }
 
-/*.content {
-  max-width: 98%;
-  margin: 0 auto;
-  padding-bottom: 5px;
-}*/
-
 * {
   box-sizing: border-box;
 }
@@ -243,10 +237,10 @@ button:focus,
     grid-gap: 10px;
   }
 
-  /* .grid__item:last-child {
+  .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
-  } */
+  }
 
   .table {
     text-align: center;
@@ -293,12 +287,3 @@ button:focus,
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
-
-/*
-button {
-  background-color: transparent;
-  border: 1px solid #2196f3;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  border-radius: 0.25rem;
-}*/
