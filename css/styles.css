@@ -221,8 +221,8 @@ button:focus,
   font-weight: 700;
 }
 
-.language-logos {
-  width: 60%;
+.language-logo {
+  margin: auto;
 }
 
 .language-logos-container {
