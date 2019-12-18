@@ -29,7 +29,7 @@ body {
   line-height: var(--primary-line-height);
   font-size: 16px;
   margin-top: 125px;
-  margin-bottom: 125px;
+  margin-bottom: 74px;
 }
 
 footer {
@@ -235,6 +235,13 @@ button:focus,
   text-align: center;
 }
 
+.hometown-photo {
+  margin: auto;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+}
+
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
@@ -251,10 +258,6 @@ button:focus,
   body {
     margin-top: 150px;
   }
-
-  .hometown-photo {
-    width: 25%;
-  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
@@ -264,10 +267,6 @@ button:focus,
 
   .grid-about {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .hometown-photo {
-    width: 50%;
   }
 }
 
@@ -287,16 +286,6 @@ button:focus,
 
   .thead {
     background-color: var(--light-gray);
-  }
-
-  .center {
-    text-align: center;
-    width: 100%;
-  }
-  .hometown-photo {
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
   }
 }
 

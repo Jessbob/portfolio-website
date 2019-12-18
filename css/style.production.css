@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 header {
   font-family: "Big Shoulders Text", cursive;
   font-weight: 400;
@@ -7,6 +9,7 @@ header {
   border-bottom: 2px groove #2b2b2b;
   position: fixed;
   top: 0;
+  -webkit-box-shadow: 1px 1px 8px rgb(82, 81, 81);
   box-shadow: 1px 1px 8px rgb(82, 81, 81);
 }
 
@@ -17,7 +20,7 @@ body {
   line-height: 1.6;
   font-size: 16px;
   margin-top: 125px;
-  margin-bottom: 125px;
+  margin-bottom: 74px;
 }
 
 footer {
@@ -74,7 +77,9 @@ button {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
+  -webkit-transition-property: opacity;
   transition-property: opacity;
 }
 
@@ -88,7 +93,9 @@ button {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
+  -webkit-transition-property: opacity;
   transition-property: opacity;
 }
 
@@ -102,7 +109,9 @@ button {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
+  -webkit-transition-property: opacity;
   transition-property: opacity;
 }
 
@@ -122,6 +131,8 @@ button:focus,
 }
 
 .nav-brand {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 100px;
   flex: 0 1 100px;
   float: left;
   width: 60px;
@@ -136,14 +147,24 @@ button:focus,
 }
 .page-footer {
   clear: both;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
   padding: 5px;
 }
 
 .about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
 }
@@ -160,21 +181,28 @@ button:focus,
 }
 
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   padding: 2px;
 }
 
 .page-header__item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 50px;
   flex: 0 1 50px;
   margin: auto;
 }
 
 .page-header__item:last-child {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
   text-align: right;
   padding-right: 20px;
@@ -190,19 +218,70 @@ button:focus,
 }
 
 .grid-about {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
   grid-template-rows: 1fr;
   grid-gap: 20px;
   padding: 20px;
 }
 
+.grid-about > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-about > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-about > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
 .grid {
   margin: auto;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 10px 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 10px;
+}
+
+.grid > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.grid > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.grid > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
+.grid > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.grid > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.grid > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
 }
 
 .grid__item {
@@ -249,12 +328,21 @@ button:focus,
   text-align: center;
 }
 
+.hometown-photo {
+  margin: auto;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+}
+
 @media all and (max-width: 500px) {
   .grid {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 
   .grid-about {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 
@@ -265,23 +353,17 @@ button:focus,
   body {
     margin-top: 150px;
   }
-
-  .hometown-photo {
-    width: 25%;
-  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
+    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
 
   .grid-about {
+    -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .hometown-photo {
-    width: 50%;
   }
 }
 
@@ -301,15 +383,5 @@ button:focus,
 
   .thead {
     background-color: #ece5e5;
-  }
-
-  .center {
-    text-align: center;
-    width: 100%;
-  }
-  .hometown-photo {
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
   }
 }
