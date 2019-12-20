@@ -1,5 +1,5 @@
-:root {
-  /* --primary-color: #4169e1;
+/*:root {
+   --primary-color: #4169e1;
   --secondary-color: #5d83f4;
   --dark-gray: #2b2b2b;
   --gray: #8b8b8b;
@@ -7,8 +7,8 @@
   --white: #fffff0;
   --primary-font-family: "Big Shoulders Text", cursive;
   --primary-font-weight: 400;
-  --primary-line-height: 1.6; */
-
+  --primary-line-height: 1.6; }*/
+:root {
   --primary-color: #4169e1;
   --secondary-color: #5d83f4;
   --dark-gray: #142d3a;
