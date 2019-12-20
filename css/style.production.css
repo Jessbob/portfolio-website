@@ -5,16 +5,18 @@ header {
   font-weight: 400;
   line-height: 1.6;
   font-size: 24px;
-  background-color: #2b2b2b;
-  border-bottom: 2px groove #2b2b2b;
+  background-color: #142d3a;
+  border-bottom: 2px groove #142d3a;
   position: fixed;
   top: 0;
   -webkit-box-shadow: 1px 1px 8px rgb(82, 81, 81);
   box-shadow: 1px 1px 8px rgb(82, 81, 81);
+  -webkit-box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
+  box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
 }
 
 body {
-  background-color: #8b8b8b;
+  background-color: #1c4153;
   font-family: "Big Shoulders Text", cursive;
   font-weight: 400;
   line-height: 1.6;
@@ -28,8 +30,11 @@ footer {
   font-weight: 400;
   line-height: 1.6;
   font-size: 12px;
-  color: #fffff0;
-  background-color: #2b2b2b;
+  color: #f6f5f2;
+  background-color: #142d3a;
+  border-top: 2px groove #142d3a;
+  -webkit-box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
+  box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
 }
 
 h1 {
@@ -48,12 +53,12 @@ h3 {
 }
 
 a {
-  color: #fffff0;
+  color: #f6f5f2;
   text-decoration: none;
 }
 
 a:visited {
-  color: #ece5e5;
+  color: #778485;
   text-decoration: none;
 }
 
@@ -63,7 +68,7 @@ a:focus {
 }
 
 a:active {
-  color: #2b2b2b;
+  color: #142d3a;
   text-decoration: underline;
 }
 
@@ -71,8 +76,9 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #4169e1;
-  color: #fffff0;
+  font-weight: 700;
+  background-color: #f6f5f2;
+  color: #142d3a;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -87,8 +93,9 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #4169e1;
-  color: #fffff0;
+  font-weight: 700;
+  background-color: #f6f5f2;
+  color: #142d3a;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -103,8 +110,9 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #4169e1;
-  color: #fffff0;
+  font-weight: 700;
+  background-color: #f6f5f2;
+  color: #142d3a;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -291,11 +299,15 @@ button:focus,
 
 .card {
   max-width: 400px;
-  border: 1px solid #fffff0;
+  border: 1px solid #f6f5f2;
   border-radius: 10px;
   margin: auto;
-  background-color: #2b2b2b;
+  background-color: #142d3a;
   padding: 2px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .card-img {
@@ -306,7 +318,7 @@ button:focus,
 }
 
 .card-content {
-  color: #fffff0;
+  color: #f6f5f2;
 }
 
 .card-title {
@@ -382,6 +394,6 @@ button:focus,
   }
 
   .thead {
-    background-color: #ece5e5;
+    background-color: #778485;
   }
 }

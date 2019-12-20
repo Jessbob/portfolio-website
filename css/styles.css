@@ -1,10 +1,20 @@
-:root {
-  --primary-color: #4169e1;
+/*:root {
+   --primary-color: #4169e1;
   --secondary-color: #5d83f4;
   --dark-gray: #2b2b2b;
   --gray: #8b8b8b;
   --light-gray: #ece5e5;
   --white: #fffff0;
+  --primary-font-family: "Big Shoulders Text", cursive;
+  --primary-font-weight: 400;
+  --primary-line-height: 1.6; }*/
+:root {
+  --primary-color: #4169e1;
+  --secondary-color: #5d83f4;
+  --dark-gray: #142d3a;
+  --gray: #1c4153;
+  --light-gray: #778485;
+  --white: #f6f5f2;
   --primary-font-family: "Big Shoulders Text", cursive;
   --primary-font-weight: 400;
   --primary-line-height: 1.6;
@@ -20,6 +30,7 @@ header {
   position: fixed;
   top: 0;
   box-shadow: 1px 1px 8px rgb(82, 81, 81);
+  box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
 }
 
 body {
@@ -39,6 +50,8 @@ footer {
   font-size: 12px;
   color: var(--white);
   background-color: var(--dark-gray);
+  border-top: 2px groove var(--dark-gray);
+  box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
 }
 
 h1 {
@@ -82,8 +95,9 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: var(--primary-color);
-  color: var(--white);
+  font-weight: 700;
+  background-color: var(--white);
+  color: var(--dark-gray);
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -203,6 +217,8 @@ button:focus,
   margin: auto;
   background-color: var(--dark-gray);
   padding: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
 }
 
 .card-img {
