@@ -149,6 +149,7 @@ button:focus,
 }
 
 .profile {
+  color: var(--white);
   max-width: 700px;
   margin: 0 auto;
 }
@@ -212,7 +213,7 @@ button:focus,
 
 .card {
   max-width: 400px;
-  border: 1px solid var(--white);
+  border: 1px solid var(--light-gray);
   border-radius: 10px;
   margin: auto;
   background-color: var(--dark-gray);
@@ -230,6 +231,7 @@ button:focus,
 
 .card-content {
   color: var(--white);
+  margin: 10px;
 }
 
 .card-title {
