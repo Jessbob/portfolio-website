@@ -299,12 +299,12 @@ button:focus,
 }
 
 .card {
-  max-width: 400px;
+  max-width: 375px;
   border: 1px solid #778485;
   border-radius: 10px;
   margin: auto;
   background-color: #142d3a;
-  padding: 2px;
+  padding: 1px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   -webkit-transition: 0.3s;
