@@ -212,7 +212,7 @@ button:focus,
 }
 
 .card {
-  max-width: 375px;
+  max-width: 360px;
   border: 1px solid var(--light-gray);
   border-radius: 10px;
   margin: auto;
