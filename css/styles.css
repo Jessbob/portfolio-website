@@ -202,7 +202,7 @@ button:focus,
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px;
+  gap: 20px;
 }
 
 .grid__item {
@@ -222,7 +222,6 @@ button:focus,
 }
 
 .card-img {
-  border-radius: 2px;
   background-size: cover;
   min-height: 150px;
   background-position: center;
@@ -277,7 +276,7 @@ button:focus,
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media all and (min-width: 500px) and (max-width: 800px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -287,9 +286,9 @@ button:focus,
   }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 800px) {
   .grid {
-    grid-gap: 10px;
+    grid-gap: 15px;
   }
 
   .grid__item:last-child {
