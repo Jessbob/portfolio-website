@@ -255,11 +255,11 @@ button:focus,
   margin: auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+  -ms-grid-columns: 1fr 15px 1fr 15px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 20px 1fr;
+  -ms-grid-rows: 1fr 15px 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 20px;
+  gap: 15px;
 }
 
 .grid > *:nth-child(1) {
@@ -369,8 +369,9 @@ button:focus,
 
 @media all and (min-width: 500px) and (max-width: 800px) {
   .grid {
-    -ms-grid-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 10px 1fr;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
   }
 
   .grid-about {
