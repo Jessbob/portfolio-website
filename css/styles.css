@@ -111,6 +111,7 @@ button:focus,
 .button:focus {
   cursor: pointer;
   opacity: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.4);
 }
 
 .profile__portrait {
@@ -218,7 +219,10 @@ button:focus,
   background-color: var(--dark-gray);
   padding: 1px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.4);
 }
 
 .card-img {
