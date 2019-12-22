@@ -274,6 +274,10 @@ button:hover,
   body {
     margin-top: 150px;
   }
+
+  .profile__portrait {
+    width: 125px;
+  }
 }
 
 @media all and (min-width: 500px) and (max-width: 800px) {
