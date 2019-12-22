@@ -86,11 +86,6 @@ a:focus {
   opacity: 0.8;
 }
 
-a:active {
-  color: var(--light-gray);
-  text-decoration: underline;
-}
-
 button,
 .button,
 button {
@@ -109,9 +104,7 @@ button {
 }
 
 button:hover,
-button:focus,
-.button:hover,
-.button:focus {
+.button:hover {
   cursor: pointer;
   opacity: 0.8;
   box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.4);
