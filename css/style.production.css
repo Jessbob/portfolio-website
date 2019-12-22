@@ -304,10 +304,13 @@ button:focus,
   margin: auto;
   background-color: #142d3a;
   padding: 1px;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(247, 245, 245, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.4);
 }
 
 .card-img {
