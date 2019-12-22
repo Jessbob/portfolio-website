@@ -81,6 +81,9 @@ a:visited {
 a:hover,
 a:focus {
   text-decoration: underline;
+  text-shadow: 0 0 8px rgba(247, 245, 245, 0.4);
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 a:active {
