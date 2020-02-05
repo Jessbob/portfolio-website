@@ -10,9 +10,9 @@ header {
   position: fixed;
   top: 0;
   -webkit-box-shadow: 1px 1px 8px rgb(82, 81, 81);
-          box-shadow: 1px 1px 8px rgb(82, 81, 81);
+  box-shadow: 1px 1px 8px rgb(82, 81, 81);
   -webkit-box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
-          box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
+  box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
 }
 
 body {
@@ -34,7 +34,7 @@ footer {
   background-color: #142d3a;
   border-top: 2px groove #142d3a;
   -webkit-box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
-          box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
+  box-shadow: inset 1px 1px 8px rgb(82, 81, 81);
 }
 
 h1 {
@@ -81,8 +81,8 @@ button {
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
@@ -100,8 +100,8 @@ button {
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
@@ -112,20 +112,21 @@ button:hover,
   cursor: pointer;
   opacity: 0.8;
   -webkit-box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.4);
-          box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.4);
 }
 
 .profile__portrait {
   float: left;
   width: 250px;
   margin-right: 10px;
+  margin-top: 20px;
   border-radius: 50%;
 }
 
 .nav-brand {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 100px;
-          flex: 0 1 100px;
+  -ms-flex: 0 1 100px;
+  flex: 0 1 100px;
   float: left;
   width: 60px;
   margin-right: 40px;
@@ -144,8 +145,8 @@ button:hover,
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
   padding: 5px;
 }
@@ -156,8 +157,8 @@ button:hover,
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -176,7 +177,7 @@ button:hover,
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .page-header {
@@ -184,20 +185,20 @@ button:hover,
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  padding: 2px;
+  padding-left: 8px;
 }
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 50px;
-          flex: 0 1 50px;
+  -ms-flex: 0 1 50px;
+  flex: 0 1 50px;
   margin: auto;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
   padding-right: 20px;
 }
@@ -291,12 +292,12 @@ button:hover,
   background-color: #142d3a;
   padding: 1px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .card:hover {
   -webkit-box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.4);
-          box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.4);
 }
 
 .card-img {
@@ -344,9 +345,8 @@ button:hover,
   background-color: #142d3a;
   padding: 1px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   color: #f6f5f2;
-  
 }
 
 .form-contents {
@@ -360,7 +360,7 @@ button:hover,
   border: 1px solid #778485;
   border-radius: 3px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   height: 30px;
   margin: auto;
 }

@@ -113,6 +113,7 @@ button:hover,
   float: left;
   width: 250px;
   margin-right: 10px;
+  margin-top: 20px;
   border-radius: 50%;
 }
 
@@ -163,7 +164,7 @@ button:hover,
 .page-header {
   display: flex;
   width: 100%;
-  padding: 2px;
+  padding-left: 8px;
 }
 
 .page-header__item {
@@ -267,7 +268,6 @@ button:hover,
   padding: 1px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   color: var(--white);
-  
 }
 
 .form-contents {
