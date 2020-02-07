@@ -281,7 +281,6 @@ button:hover,
 .grid__item {
   background-color: rgba(28, 65, 83, 0.7);
   padding: 10px;
-  /* opacity: 50%; */
   text-align: left;
 }
 
@@ -345,11 +344,23 @@ button:hover,
 }
 
 .bar1::after {
-  max-width: 60%;
+  max-width: 90%;
 }
 
 .bar2::after {
   max-width: 80%;
+}
+
+.bar3::after {
+  max-width: 60%;
+}
+
+.bar4::after {
+  max-width: 50%;
+}
+
+.bar5::after {
+  max-width: 70%;
 }
 
 .card {
