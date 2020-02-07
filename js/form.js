@@ -1,6 +1,6 @@
 (() => {
   const form = document.querySelector("form");
-  const formResponse = document.querySelector("js-form-response");
+  const formResponse = document.getElementById("js-form-response");
 
   form.onsubmit = e => {
     e.preventDefault();
