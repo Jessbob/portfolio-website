@@ -60,7 +60,34 @@
     <div class="content">
       <div class="form-container">
         <div class="form-contents">
-      <form action="#" method="post" id="contact-form">
+          <form
+            action="https://salys9jbxk.execute-api.us-east-1.amazonaws.com/dev/static-site-mailer"
+            method="POST"
+          >
+            <label class="form-labels">
+              Name
+              <input class="form-inputs" type="text" name="name" required />
+            </label>
+            <label class="form-labels">
+              Email
+              <input
+                class="form-inputs"
+                type="email"
+                name="reply_to"
+                required
+              />
+            </label>
+            <label class="form-labels">
+              Message
+              <textarea class="form-message" name="message" required></textarea>
+            </label>
+          </div>
+          <div class="form-footer">
+            <button class="button" type="submit">Send Message</button>
+          </form>
+          <p id="js-form-response"></p>
+
+          <!-- <form action="#" method="post" id="contact-form">
         <p>
           <label class="form-labels" for="contact-email">Email</label><br />
           <input class="form-inputs" type="email" id="contact-email" required /><br />
@@ -78,8 +105,8 @@
           ><br /></div><div class="form-footer">
           <input class="button" type="submit" value="Send Message" />
         </p>
-      </form>
-      </div>
+      </form> -->
+        </div>
       </div>
 
       <p>
@@ -125,4 +152,5 @@
       </footer>
     </div>
   </body>
+  <script src="js/form.js"></script>
 </html>
