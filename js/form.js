@@ -21,7 +21,7 @@
     xhr.onloadend = response => {
       if (response.target.status === 200) {
         form.reset();
-        formResponse.innerHTML = "Thanks for the message!";
+        formResponse.innerHTML = "Your message has been sent!";
       } else {
         formResponse.innerHTML = "Something went wrong";
         console.error(JSON.parse(response.target.response).message);
