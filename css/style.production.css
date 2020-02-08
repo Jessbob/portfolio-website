@@ -422,7 +422,7 @@ button:hover,
   border-radius: 8px;
   margin: auto;
   background-color: #142d3a;
-  padding: 1px;
+  padding: 10px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   color: #f6f5f2;
@@ -460,6 +460,11 @@ button:hover,
   width: 96%;
   text-align: right;
   margin: auto;
+}
+
+.message-alert {
+  font-size: 18pt;
+  float: left;
 }
 
 @media all and (max-width: 500px) {

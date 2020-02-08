@@ -342,7 +342,7 @@ button:hover,
   border-radius: 8px;
   margin: auto;
   background-color: var(--dark-gray);
-  padding: 1px;
+  padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   color: var(--white);
 }
@@ -378,6 +378,11 @@ button:hover,
   width: 96%;
   text-align: right;
   margin: auto;
+}
+
+.message-alert {
+  font-size: 18pt;
+  float: left;
 }
 
 @media all and (max-width: 500px) {
