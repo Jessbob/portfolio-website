@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="138.3192mm"
+   height="59.419735mm"
+   viewBox="0 0 138.3192 59.419735"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="jwlogo.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="-33.583633"
+     inkscape:cy="-44.042518"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g3729"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="2091"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g3729"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1 copy"
+     style="display:inline"
+     transform="translate(-37.317474,-10.599898)">
+    <g
+       id="g5054">
+      <g
+         id="g5037">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:50.79999924px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="31.893517"
+           y="48.981018"
+           id="text3715"><tspan
+             sodipodi:role="line"
+             id="tspan3713"
+             x="31.893517"
+             y="48.981018"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold';stroke-width:0.26458332">&lt;JW&gt;</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:13.37819481px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25084114"
+           x="39.754322"
+           y="65.914543"
+           id="text3719"
+           transform="scale(1.0280972,0.97267067)"><tspan
+             sodipodi:role="line"
+             id="tspan3717"
+             x="39.754322"
+             y="65.914543"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.40511322px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold';stroke-width:0.25084114">Development</tspan></text>
+      </g>
+      <g
+         id="g5031">
+        <text
+           id="text3723"
+           y="48.451851"
+           x="31.364349"
+           style="font-style:normal;font-weight:normal;font-size:50.79999924px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f6f5f2;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold';fill:#f6f5f2;fill-opacity:1;stroke-width:0.26458332"
+             y="48.451851"
+             x="31.364349"
+             id="tspan3721"
+             sodipodi:role="line">&lt;JW&gt;</tspan></text>
+        <text
+           transform="scale(1.0280972,0.97267067)"
+           id="text3727"
+           y="65.370506"
+           x="39.239616"
+           style="font-style:normal;font-weight:normal;font-size:13.37819481px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f6f5f2;fill-opacity:1;stroke:none;stroke-width:0.25084114"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.40511322px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold';fill:#f6f5f2;fill-opacity:1;stroke-width:0.25084114"
+             y="65.370506"
+             x="39.239616"
+             id="tspan3725"
+             sodipodi:role="line">Development</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -24,13 +24,12 @@ header {
 }
 
 body {
+  margin: 125px auto 74px;
   background-color: var(--gray);
   font-family: var(--primary-font-family);
   font-weight: var(--primary-font-weight);
   line-height: var(--primary-line-height);
   font-size: 16px;
-  margin-top: 125px;
-  margin-bottom: 74px;
 }
 
 footer {
@@ -101,10 +100,9 @@ button:hover,
 
 .profile__portrait {
   float: left;
-  width: 250px;
-  margin-right: 10px;
+  width: 350px;
+  margin-right: 5px;
   margin-top: 20px;
-  border-radius: 50%;
 }
 
 .nav-brand {
@@ -138,7 +136,7 @@ button:hover,
 .profile {
   color: var(--white);
   max-width: 700px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .content {
@@ -168,7 +166,7 @@ button:hover,
 
 .page-header__item {
   flex: 0 1 50px;
-  margin: 10px, auto;
+  margin: auto;
 }
 
 .page-header__item:last-child {
@@ -385,6 +383,17 @@ button:hover,
   float: left;
 }
 
+.contact-links {
+  margin: auto;
+  width: 400px;
+}
+
+.contact-links-item {
+  vertical-align: middle;
+  display: inline;
+  margin: 2%;
+}
+
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
@@ -399,7 +408,7 @@ button:hover,
   }
 
   body {
-    margin-top: 150px;
+    margin: 125px auto 74px;
   }
 
   .profile__portrait {

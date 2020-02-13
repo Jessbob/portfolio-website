@@ -16,13 +16,12 @@ header {
 }
 
 body {
+  margin: 125px auto 74px;
   background-color: #1c4153;
   font-family: "Big Shoulders Text", cursive;
   font-weight: 400;
   line-height: 1.6;
   font-size: 16px;
-  margin-top: 125px;
-  margin-bottom: 74px;
 }
 
 footer {
@@ -117,10 +116,9 @@ button:hover,
 
 .profile__portrait {
   float: left;
-  width: 250px;
-  margin-right: 10px;
+  width: 350px;
+  margin-right: 5px;
   margin-top: 20px;
-  border-radius: 50%;
 }
 
 .nav-brand {
@@ -166,7 +164,7 @@ button:hover,
 .profile {
   color: #f6f5f2;
   max-width: 700px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .content {
@@ -467,6 +465,17 @@ button:hover,
   float: left;
 }
 
+.contact-links {
+  margin: auto;
+  width: 400px;
+}
+
+.contact-links-item {
+  vertical-align: middle;
+  display: inline;
+  margin: 2%;
+}
+
 @media all and (max-width: 500px) {
   .grid {
     -ms-grid-columns: 1fr;
@@ -483,7 +492,7 @@ button:hover,
   }
 
   body {
-    margin-top: 150px;
+    margin: 125px auto 74px;
   }
 
   .profile__portrait {
