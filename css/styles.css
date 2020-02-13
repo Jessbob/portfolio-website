@@ -168,7 +168,7 @@ button:hover,
 
 .page-header__item {
   flex: 0 1 50px;
-  margin: auto;
+  margin: 10px, auto;
 }
 
 .page-header__item:last-child {
