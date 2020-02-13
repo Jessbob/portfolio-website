@@ -476,6 +476,37 @@ button:hover,
   margin: 2%;
 }
 
+.text-animation {
+  -webkit-animation: type 5s steps(45);
+  animation: type 5s steps(45);
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #f6f5f2;
+  width: 45ch;
+  font-size: 20pt;
+  margin-top: -15px;
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 45ch;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 45ch;
+  }
+}
+
 @media all and (max-width: 500px) {
   .grid {
     -ms-grid-columns: 1fr;
