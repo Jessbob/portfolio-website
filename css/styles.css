@@ -5,7 +5,7 @@
   --gray: #1c4153;
   --light-gray: #778485;
   --white: #f6f5f2;
-  --primary-font-family: "Big Shoulders Text", cursive;
+  --primary-font-family: "Kanit", sans-serif;
   --primary-font-weight: 400;
   --primary-line-height: 1.6;
 }
@@ -44,6 +44,7 @@ footer {
 }
 
 h1 {
+  font-family: var(--primary-font-family);
   font-size: 30px;
   font-weight: 700;
 }
@@ -137,6 +138,7 @@ button:hover,
   color: var(--white);
   max-width: 700px;
   margin: auto;
+  font-size: 20px;
 }
 
 .content {
@@ -369,7 +371,7 @@ button:hover,
 .form-labels {
   width: 100%;
   margin: auto;
-  font-size: 18pt;
+  font-size: 18px;
 }
 
 .form-footer {
@@ -379,13 +381,13 @@ button:hover,
 }
 
 .message-alert {
-  font-size: 18pt;
+  font-size: 18px;
   float: left;
 }
 
 .contact-links {
   margin: auto;
-  width: 400px;
+  width: 700px;
 }
 
 .contact-links-item {
@@ -395,12 +397,12 @@ button:hover,
 }
 
 .text-animation {
-  animation: type 5s steps(45);
+  animation: type 5s steps(42);
   overflow: hidden;
   white-space: nowrap;
   border-right: 2px solid #f6f5f2;
-  width: 45ch;
-  font-size: 20pt;
+  width: 42ch;
+  font-size: 30px;
   margin-top: -15px;
 }
 
@@ -410,7 +412,7 @@ button:hover,
   }
 
   100% {
-    width: 45ch;
+    width: 42ch;
   }
 }
 
@@ -424,7 +426,7 @@ button:hover,
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   body {
