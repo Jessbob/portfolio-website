@@ -14,7 +14,7 @@ header {
   font-family: var(--primary-font-family);
   font-weight: var(--primary-font-weight);
   line-height: var(--primary-line-height);
-  font-size: 24px;
+  font-size: 28px;
   background-color: var(--dark-gray);
   border-bottom: 2px groove var(--dark-gray);
   position: fixed;

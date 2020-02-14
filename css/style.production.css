@@ -4,7 +4,7 @@ header {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  font-size: 24px;
+  font-size: 28px;
   background-color: #142d3a;
   border-bottom: 2px groove #142d3a;
   position: fixed;
@@ -21,14 +21,14 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 footer {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  font-size: 12px;
+  font-size: 16px;
   color: #f6f5f2;
   background-color: #142d3a;
   border-top: 2px groove #142d3a;
@@ -166,7 +166,7 @@ button:hover,
   color: #f6f5f2;
   max-width: 800px;
   margin: auto;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 .content {
